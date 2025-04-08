@@ -1,0 +1,29 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    build-essential \
+    libssl-dev \
+    libyaml-dev \
+    libreadline-dev \
+    libz-dev \
+    tzdata \
+    pkg-config \
+    sudo
+
+RUN curl -fsSL https://crystal-lang.org/install.sh | bash
+
+WORKDIR /app
+
+COPY . .
+
+RUN shards install
+
+RUN crystal build app.cr --release -o app
+
+EXPOSE 3000
+
+CMD ["./app"]

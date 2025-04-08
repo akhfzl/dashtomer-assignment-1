@@ -1,0 +1,144 @@
+{ 
+  "sailings": [ 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-02-01", 
+      "arrival_date": "2025-03-01", 
+      "sailing_code": "LOKF" 
+    }, 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-02-02", 
+      "arrival_date": "2025-03-02", 
+      "sailing_code": "GJAX" 
+    }, 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-01-31", 
+      "arrival_date": "2025-02-28", 
+      "sailing_code": "OPWL" 
+    }, 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-01-30", 
+      "arrival_date": "2025-03-05", 
+      "sailing_code": "MNBB" 
+    }, 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-01-29", 
+      "arrival_date": "2025-02-15", 
+      "sailing_code": "NSHW" 
+    }, 
+    { 
+      "origin_port": "IDBTM", 
+      "destination_port": "PKLHE", 
+      "departure_date": "2025-01-29", 
+      "arrival_date": "2025-02-06", 
+      "sailing_code": "KLAS" 
+    }, 
+    { 
+      "origin_port": "PKLHE", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-02-15", 
+      "arrival_date": "2025-03-29", 
+      "sailing_code": "ETRF" 
+    }, 
+    { 
+      "origin_port": "PKLHE", 
+      "destination_port": "GBLON", 
+      "departure_date": "2025-02-16", 
+      "arrival_date": "2025-02-20", 
+      "sailing_code": "RJWK" 
+    }, 
+    { 
+      "origin_port": "PKLHE", 
+      "destination_port": "BRSSZ", 
+      "departure_date": "2025-02-16", 
+      "arrival_date": "2025-03-14", 
+      "sailing_code": "GNRK" 
+    } 
+  ], 
+  "rates": [ 
+    { 
+      "sailing_code": "LOKF", 
+      "rate": "589.30", 
+      "rate_currency": "USD" 
+    }, 
+    { 
+      "sailing_code": "GJAX", 
+      "rate": "890.32", 
+      "rate_currency": "EUR" 
+    }, 
+    { 
+      "sailing_code": "OPWL", 
+      "rate": "97453", 
+      "rate_currency": "IDR" 
+    }, 
+    { 
+      "sailing_code": "MNBB", 
+      "rate": "456.78", 
+      "rate_currency": "USD" 
+    }, 
+    { 
+      "sailing_code": "NSHW", 
+      "rate": "761.96", 
+      "rate_currency": "EUR" 
+    }, 
+    { 
+      "sailing_code": "KLAS", 
+      "rate": "261.96", 
+      "rate_currency": "EUR" 
+    }, 
+    { 
+      "sailing_code": "ETRF", 
+      "rate": "70.96", 
+      "rate_currency": "USD" 
+    }, 
+    { 
+      "sailing_code": "RJWK", 
+      "rate": "69.96", 
+      "rate_currency": "USD" 
+    }, 
+    { 
+      "sailing_code": "GNRK", 
+      "rate": "439.96", 
+      "rate_currency": "USD" 
+    } 
+  ], 
+  "exchange_rates": { 
+        "2025-01-29": { 
+        "usd": 1.0126, 
+        "idr": 1279000.61 
+        }, 
+        "2025-01-30": { 
+        "usd": 1.0126, 
+        "idr": 1288050.73 
+        }, 
+        "2025-01-31": { 
+        "usd": 1.0144, 
+        "idr": 1289472.89 
+        }, 
+        "2025-02-01": { 
+        "usd": 1.014, 
+        "idr": 1279274.55 
+        }, 
+        "2025-02-02": { 
+        "usd": 1.0311, 
+        "idr": 1334810.67 
+        }, 
+        "2025-02-15": { 
+        "usd": 1.0471, 
+        "idr": 1511294.69 
+        }, 
+        "2025-02-16": { 
+        "usd": 1.047, 
+        "idr": 1518712.59 
+        }
+    } 
+} 

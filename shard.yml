@@ -1,0 +1,18 @@
+name: assignments-1
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  assignments-1:
+    main: app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: "~> 0.27.0"
+
+crystal: 1.8.2
+
+license: MIT
