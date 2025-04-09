@@ -1,0 +1,324 @@
+{
+  "sailings": [
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-01",
+      "arrival_date": "2025-03-01",
+      "sailing_code": "LOKF"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-02",
+      "arrival_date": "2025-03-02",
+      "sailing_code": "GJAX"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-01-31",
+      "arrival_date": "2025-02-28",
+      "sailing_code": "OPWL"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-01-30",
+      "arrival_date": "2025-03-05",
+      "sailing_code": "MNBB"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-01-29",
+      "arrival_date": "2025-02-15",
+      "sailing_code": "NSHW"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "PKLHE",
+      "departure_date": "2025-01-29",
+      "arrival_date": "2025-02-06",
+      "sailing_code": "KLAS"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-15",
+      "arrival_date": "2025-03-29",
+      "sailing_code": "ETRF"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-16",
+      "arrival_date": "2025-02-20",
+      "sailing_code": "RJWK"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "BRSSZ",
+      "departure_date": "2025-02-16",
+      "arrival_date": "2025-03-14",
+      "sailing_code": "GNRK"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "AEJEA",
+      "departure_date": "2025-01-27",
+      "arrival_date": "2025-02-04",
+      "sailing_code": "899A"
+    },
+    {
+      "origin_port": "AEJEA",
+      "destination_port": "IDBTM",
+      "departure_date": "2025-01-31",
+      "arrival_date": "2025-02-11",
+      "sailing_code": "C796"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "BRSSZ",
+      "departure_date": "2025-02-05",
+      "arrival_date": "2025-02-12",
+      "sailing_code": "25BA"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "DEHAM",
+      "departure_date": "2025-01-25",
+      "arrival_date": "2025-02-05",
+      "sailing_code": "429A"
+    },
+    {
+      "origin_port": "DEHAM",
+      "destination_port": "GBLON",
+      "departure_date": "2025-01-30",
+      "arrival_date": "2025-02-07",
+      "sailing_code": "4818"
+    },
+    {
+      "origin_port": "GBLON",
+      "destination_port": "JPTYO",
+      "departure_date": "2025-02-04",
+      "arrival_date": "2025-02-14",
+      "sailing_code": "2095"
+    },
+    {
+      "origin_port": "CNSHA",
+      "destination_port": "JPTYO",
+      "departure_date": "2025-01-25",
+      "arrival_date": "2025-01-31",
+      "sailing_code": "613A"
+    },
+    {
+      "origin_port": "JPTYO",
+      "destination_port": "IDBTM",
+      "departure_date": "2025-01-30",
+      "arrival_date": "2025-02-08",
+      "sailing_code": "AFA3"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "USNYC",
+      "departure_date": "2025-02-04",
+      "arrival_date": "2025-02-14",
+      "sailing_code": "CEBD"
+    },
+    {
+      "origin_port": "JPTYO",
+      "destination_port": "AEJEA",
+      "departure_date": "2025-01-25",
+      "arrival_date": "2025-01-31",
+      "sailing_code": "56B4"
+    },
+    {
+      "origin_port": "AEJEA",
+      "destination_port": "USNYC",
+      "departure_date": "2025-01-30",
+      "arrival_date": "2025-02-04",
+      "sailing_code": "F423"
+    },
+    {
+      "origin_port": "USNYC",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-05",
+      "arrival_date": "2025-02-09",
+      "sailing_code": "9433"
+    },
+    {
+      "origin_port": "DEHAM",
+      "destination_port": "IDBTM",
+      "departure_date": "2025-01-27",
+      "arrival_date": "2025-02-04",
+      "sailing_code": "AE15"
+    },
+    {
+      "origin_port": "IDBTM",
+      "destination_port": "PKLHE",
+      "departure_date": "2025-02-01",
+      "arrival_date": "2025-02-09",
+      "sailing_code": "8507"
+    },
+    {
+      "origin_port": "PKLHE",
+      "destination_port": "GBLON",
+      "departure_date": "2025-02-04",
+      "arrival_date": "2025-02-10",
+      "sailing_code": "F249"
+    }
+  ],
+  "rates": [
+    {
+      "sailing_code": "LOKF",
+      "rate": "589.30",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "GJAX",
+      "rate": "890.32",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "OPWL",
+      "rate": "97453",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "MNBB",
+      "rate": "456.78",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "NSHW",
+      "rate": "761.96",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "KLAS",
+      "rate": "261.96",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "ETRF",
+      "rate": "70.96",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "RJWK",
+      "rate": "69.96",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "GNRK",
+      "rate": "439.96",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "899A",
+      "rate": "161.09",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "C796",
+      "rate": "163.09",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "25BA",
+      "rate": "847.89",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "429A",
+      "rate": "916.97",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "4818",
+      "rate": "528.83",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "2095",
+      "rate": "822.36",
+      "rate_currency": "USD"
+    },
+    {
+      "sailing_code": "613A",
+      "rate": "301.59",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "AFA3",
+      "rate": "486.4",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "CEBD",
+      "rate": "829.68",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "56B4",
+      "rate": "180.66",
+      "rate_currency": "EUR"
+    },
+    {
+      "sailing_code": "F423",
+      "rate": "964.88",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "9433",
+      "rate": "364.07",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "AE15",
+      "rate": "613.46",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "8507",
+      "rate": "314.1",
+      "rate_currency": "IDR"
+    },
+    {
+      "sailing_code": "F249",
+      "rate": "794.99",
+      "rate_currency": "IDR"
+    }
+  ],
+  "exchange_rates": {
+    "2025-01-29": {
+      "usd": 1.0126,
+      "idr": 1279000.61
+    },
+    "2025-01-30": {
+      "usd": 1.0126,
+      "idr": 1288050.73
+    },
+    "2025-01-31": {
+      "usd": 1.0144,
+      "idr": 1289472.89
+    },
+    "2025-02-01": {
+      "usd": 1.014,
+      "idr": 1279274.55
+    },
+    "2025-02-02": {
+      "usd": 1.0311,
+      "idr": 1334810.67
+    },
+    "2025-02-15": {
+      "usd": 1.0471,
+      "idr": 1511294.69
+    },
+    "2025-02-16": {
+      "usd": 1.047,
+      "idr": 1518712.59
+    }
+  }
+}

@@ -9,15 +9,16 @@ get "/route" do |env|
     dest = parsed["destination"].as_s
     type = parsed["type"].as_s
 
+    json_path = Path[__DIR__] / ".." / "data" / "db.json"
+    data = databases(json_path.expand)
+
     if type == "cheapest-direct"
-        json_path = Path[__DIR__] / ".." / "data" / "db.json"
-        data = databases(json_path.expand)
         cheapest_direct(data, orign, dest)
     
     elsif type == "cheapest"
         puts "cheapest"
     
     else 
-        puts "fastest"
+        fastest(data, orign, dest)
     end
 end
